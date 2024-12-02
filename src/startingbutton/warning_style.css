@@ -1,0 +1,55 @@
+.screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .screen .div {
+    background-color: #ffffff;
+    height: auto; /* 높이를 자동으로 설정하여 경고 팝업이 들어갈 공간을 만듦 */
+    position: relative;
+    width: 432px;
+    margin-top: 100px; /* 입력창과 경고 팝업 사이의 간격을 조절 */
+  }
+  
+  .screen .image {
+    height: 40px;
+    left: 18px;
+    object-fit: cover;
+    position: absolute;
+    top: 14px;
+    width: 40px;
+  }
+  
+  .screen .text-wrapper {
+    color: #000000;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    height: 40px;
+    left: 77px;
+    letter-spacing: 0.1px;
+    line-height: 18px;
+    position: absolute;
+    top: 5px;
+  }
+  
+  /* 추가된 스타일: 경고 팝업을 Startingbutton 내의 적당한 위치에 배치하기 위한 조정 */
+  .warning-container {
+    position: relative;
+    margin-top: 10px; /* 입력창과 경고 팝업 사이의 간격을 조절 */
+    width: 100%;
+    display: flex;
+    justify-content: left; /* 중앙 정렬 */
+  }
+  
+  .warning-popup {
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+
+  }
+  

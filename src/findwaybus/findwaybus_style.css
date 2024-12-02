@@ -1,0 +1,340 @@
+.div-wrapper {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .div-wrapper .div {
+    background-color: var(--x);
+    overflow: hidden;
+    width: 412px;
+    height: 560px;
+    position: relative;
+  }
+  
+  .div-wrapper .stop-edge {
+    position: absolute;
+    width: 412px;
+    height: 44px;
+    top: 135px;
+    left: 0;
+  }
+  
+  .div-wrapper .view {
+    position: absolute;
+    width: 206px;
+    height: 44px;
+    top: 0;
+    left: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #666666;
+  }
+  
+  .div-wrapper .text-wrapper {
+    top: 14px;
+    left: 101px;
+    color: #ffb10c;
+    font-size: 16px;
+    position: absolute;
+    height: 20px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .div-wrapper .bus-electric {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 9px;
+    left: 45px;
+  }
+  
+  .div-wrapper .vector {
+    height: 19px;
+    top: 13px;
+    left: 74px;
+    position: absolute;
+    width: 17px;
+  }
+  
+  .div-wrapper .overlap-group-wrapper {
+    position: absolute;
+    width: 206px;
+    height: 44px;
+    top: 0;
+    left: 206px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #d1d1d1;
+  }
+  
+  .div-wrapper .overlap-group {
+    position: relative;
+    width: 52px;
+    height: 25px;
+    top: 10px;
+    left: 78px;
+  }
+  
+  .div-wrapper .text-wrapper-2 {
+    top: 4px;
+    left: 22px;
+    color: #000000;
+    font-size: 16px;
+    position: absolute;
+    height: 20px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .div-wrapper .motion-sensor {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+  }
+  
+  .div-wrapper .line {
+    position: absolute;
+    width: 412px;
+    height: 1px;
+    top: 1701px;
+    left: 403px;
+    object-fit: cover;
+  }
+  
+  .div-wrapper .text-wrapper-3 {
+    top: 476px;
+    left: 129px;
+    color: #646363;
+    font-size: 16px;
+    position: absolute;
+    height: 20px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .div-wrapper .view-2 {
+    position: absolute;
+    width: 412px;
+    height: 43px;
+    top: 0;
+    left: 0;
+    background-color: #ffb10c42;
+  }
+  
+  .div-wrapper .map-spicy {
+    position: absolute;
+    width: 73px;
+    height: 20px;
+    top: 16px;
+    left: 45px;
+  }
+  
+  .div-wrapper .text-wrapper-4 {
+    position: absolute;
+    height: 20px;
+    top: -6px;
+    left: 0;
+    font-family: "Kumbh Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .div-wrapper .image-wrapper {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 3px;
+    left: 8px;
+  }
+  
+  .div-wrapper .image {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: -1px;
+    left: 2px;
+    object-fit: cover;
+  }
+  
+  .div-wrapper .menu {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 4px;
+    left: 373px;
+  }
+  
+  .div-wrapper .view-3 {
+    position: absolute;
+    width: 412px;
+    height: 92px;
+    top: 43px;
+    left: 0;
+    background-color: #ffb10c42;
+    overflow: hidden;
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+    border-color: #d1d1d1;
+  }
+  
+  .div-wrapper .frame {
+    position: absolute;
+    width: 348px; /* 부모 요소의 너비 */
+    height: 37px;
+    top: 9px;
+    left: 47px;
+    background-color: var(--x-4-sca-ly);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+    border-color: #e9e9e9;
+  }
+  
+  .div-wrapper .text-wrapper-5 {
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    color: #7e7e7e;
+    font-size: var(--AOSP-body-medium-font-size);
+    font-family: var(--AOSP-body-medium-font-family);
+    font-weight: var(--AOSP-body-medium-font-weight);
+    letter-spacing: var(--AOSP-body-medium-letter-spacing);
+    line-height: var(--AOSP-body-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--AOSP-body-medium-font-style);
+    width: 100%; /* 부모 요소의 너비에 맞게 입력 필드 확장 */
+  }
+  
+  .div-wrapper .input-field {
+    width: 100%; /* 입력 필드 너비 */
+    height: 38px; /* 높이 조정 */
+    padding: 10px;
+    border: none;
+    font-size: 13px;
+    color: #333;
+    background-color: #ffffff;
+    border-radius: 5px; /* 둥근 모서리 */
+    box-sizing: border-box; /* 여백 포함 크기 계산 */
+    margin: auto; /* 가운데 정렬 */
+  }
+  
+  .div-wrapper .input-field::placeholder {
+    color: #7e7e7e;
+    font-style: normal;
+  }
+  
+  /* 입력 칸 클릭 시 테두리 없애기 */
+.div-wrapper .input-field:focus {
+  outline: none; /* 기본 포커스 아웃라인 제거 */
+  border: none;  /* 테두리 제거 */
+}
+
+  .div-wrapper .frame-2 {
+    position: absolute;
+    width: 348px;
+    height: 37px;
+    top: 46px;
+    left: 47px;
+    background-color: var(--x-4-sca-ly);
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+    border-top-width: 0.5px;
+    border-top-style: solid;
+    border-color: #e9e9e9;
+  }
+  
+  .div-wrapper .text-wrapper-6 {
+    top: 8px;
+    left: 14px;
+    color: #7e7e7e;
+    font-size: var(--AOSP-body-medium-font-size);
+    position: absolute;
+    height: 20px;
+    font-family: var(--AOSP-body-medium-font-family);
+    font-weight: var(--AOSP-body-medium-font-weight);
+    letter-spacing: var(--AOSP-body-medium-letter-spacing);
+    line-height: var(--AOSP-body-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--AOSP-body-medium-font-style);
+    
+  }
+  
+  .div-wrapper .frame-3 {
+    position: absolute;
+    width: 412px;
+    height: 63px;
+    top: 92px;
+    left: 0;
+  }
+  
+  .div-wrapper .overlap {
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    top: 14px;
+    left: 15px;
+  }
+  
+  .div-wrapper .group {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 0;
+    left: 3px;
+  }
+  
+  .div-wrapper .img {
+    height: 17px;
+    top: 4px;
+    left: 0;
+    position: absolute;
+    width: 17px;
+  }
+  
+  .div-wrapper .overlap-2 {
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    top: 53px;
+    left: 15px;
+  }
+  
+  .div-wrapper .arrow-left {
+    position: absolute;
+    width: 11px;
+    height: 21px;
+    top: 0;
+    left: 0;
+  }
+  
+  .div-wrapper .arrow-left-2 {
+    position: absolute;
+    width: 11px;
+    height: 21px;
+    top: 0;
+    left: 8px;
+  }
+  
+
+  
+  

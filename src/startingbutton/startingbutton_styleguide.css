@@ -1,0 +1,15 @@
+:root {
+  --1: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  --2: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  --3: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  --a-5e-d-ab: rgba(255, 177, 12, 1);
+  --AOSP-body-medium-font-family: "Roboto", Helvetica;
+  --AOSP-body-medium-font-size: 14px;
+  --AOSP-body-medium-font-style: normal;
+  --AOSP-body-medium-font-weight: 400;
+  --AOSP-body-medium-letter-spacing: 0.25px;
+  --AOSP-body-medium-line-height: 20px;
+  --pj-NYOP: rgba(255, 255, 255, 1);
+  --x: rgba(255, 255, 255, 1);
+  --x-3u-5yo: rgba(0, 0, 0, 1);
+}
